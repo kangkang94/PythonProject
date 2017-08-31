@@ -27,3 +27,7 @@ s.width = 1024
 s.height = 768
 print(s.resolution)
 assert s.resolution == 786432, '1024 * 768 = %d ?' % s.resolution
+
+
+r=open('/Users/kang/Desktop/hello.png','rb')
+print(r.read())
